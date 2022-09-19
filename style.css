@@ -37,38 +37,42 @@ h1.job1 {
 }
 
 p#first-paragraph {
+    
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
     text-indent: 30px;
     text-align: justify;
     text-justify: inter-word;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 15px;
+    margin: auto;
+    
 }
+
 
 
 ul#skills {
     list-style-type: disc;
-    margin-left: 120px;
+    margin-left: 130px;
     text-align: left;
     position: absolute;
     left: 0px;
     width: 350px;
-    border: 1px solid white;
-    padding: 10px
-}
+    /* border: 1px solid white; */
+    padding: 10px;
+} 
 
 ul#skills1  {
     list-style-type: disc;
-    margin-left: 170px;
+    margin-left: 160px;
     text-align: left;
     position: absolute;
     right: 0px;
     width: 350px;
-    border: 1px solid white;
-    padding: 10px
+    /* border: 1px solid white; */
+    padding: 10px;
 }
+
 ul.sub{
     margin-left: 40px;
     /* font-size: 15px; */
@@ -77,8 +81,8 @@ ul.sub{
     
 }  
 
-h3.sub1 {
-    font-size: 15px;
+p.sub1 {
+    font-size: 17px;
 }
 
 div.heading1 {
@@ -91,4 +95,28 @@ div.heading1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.other{
+    color: black;
+    padding-top: 225px;
+    margin-left: 60px;
+    display: list-item;
+    list-style-type: disc;
+}
+
+#box1{
+    float: right;
+}
+
+#skills1{
+    float: right;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+
+.sub2 {
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 40px;
 }

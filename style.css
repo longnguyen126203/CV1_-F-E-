@@ -1,0 +1,139 @@
+:root {
+    --text-color: black;
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2  {
+    color: var(--text-color);
+    font-size: 15pt;
+}
+
+h1.job1 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-heading{
+    font-size: 15pt;
+}
+
+#job {
+    font-weight: 600;
+}
+
+#first-body{
+    font-size: 13pt;
+}
+
+#second-body {
+    font-size: 13pt;
+    margin-bottom: 30px;
+}
+
+p#first-paragraph {
+    
+    color: black;
+    font-size: 15pt;
+    display: flex;
+    text-indent: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+}
+
+
+
+ul#skills {
+    list-style-type: disc;
+    margin-left: 130px;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    width: 350px;
+    /* border: 1px solid white; */
+    padding: 10px;
+} 
+
+ul#skills1  {
+    list-style-type: disc;
+    margin-left: 160px;
+    text-align: left;
+    position: absolute;
+    right: 0px;
+    width: 350px;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+ul.sub{
+    margin-left: 40px;
+    /* font-size: 15px; */
+    list-style-type:circle;
+    font-family: 'Times New Roman', Times, serif;
+    
+}  
+
+p.sub1 {
+    font-size: 15pt;
+}
+
+div.heading1 {
+    margin: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vbcangiua {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other{
+    color: black;
+    padding-top: 225px;
+    margin-left: 60px;
+    display: list-item;
+    list-style-type: disc;
+    margin-top: 30pt;
+}
+
+#box1{
+    float: right;
+}
+
+#skills1{
+    float: right;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+
+.sub2 {
+    font-size: 15pt;
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+.university{
+    font-size: 14pt;
+    display: list-item;
+    margin-left: 60px;
+    list-style-type: disc;
+    margin-bottom: 10pt;
+}
+
+.note{
+    font-size:13pt;
+    margin-right: 40pt;
+    float: right;
+}

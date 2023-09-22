@@ -1,2 +1,2 @@
 # CV1_-F-E-
-Config files for my GitHub profile.
+CV đầu tiên làm được khi học môn thiết kế web
